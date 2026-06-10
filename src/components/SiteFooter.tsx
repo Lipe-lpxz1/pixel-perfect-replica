@@ -33,12 +33,12 @@ export function SiteFooter() {
               Contato
             </p>
             <a
-              href="mailto:contato@danella.com"
-              className="block font-display text-xl italic text-brand-light hover:text-brand-accent"
+              href="mailto:Danielaribeirocontato@hotmail.com"
+              className="block font-display text-xl italic text-brand-light hover:text-brand-accent break-all"
             >
-              contato@danella.com
+              Danielaribeirocontato@hotmail.com
             </a>
-            <p className="mt-2 text-sm text-brand-light/55">+55 11 99000 0000</p>
+            <p className="mt-2 text-sm text-brand-light/55">+55 11 98837-7539</p>
           </div>
         </div>
 
@@ -47,9 +47,8 @@ export function SiteFooter() {
             © {new Date().getFullYear()} Danella. Todos os direitos reservados.
           </p>
           <div className="flex gap-8 text-[10px] uppercase tracking-luxury">
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="text-brand-light/60 hover:text-brand-accent">Instagram</a>
-            <a href="https://open.spotify.com" target="_blank" rel="noreferrer" className="text-brand-light/60 hover:text-brand-accent">Spotify</a>
-            <a href="https://youtube.com" target="_blank" rel="noreferrer" className="text-brand-light/60 hover:text-brand-accent">YouTube</a>
+            <a href="https://www.instagram.com/danellaoficial/" target="_blank" rel="noreferrer" className="text-brand-light/60 hover:text-brand-accent">Instagram</a>
+            <a href="https://open.spotify.com/artist/6rFydUcUXtAiW2DBXtgZa8?si=51vPO8yUTMm1dfYLN4xqWQ" target="_blank" rel="noreferrer" className="text-brand-light/60 hover:text-brand-accent">Spotify</a>
           </div>
         </div>
       </div>
