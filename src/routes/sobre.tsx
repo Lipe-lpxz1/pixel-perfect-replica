@@ -27,7 +27,7 @@ function SobrePage() {
         <header className="mb-20 max-w-3xl animate-fade-up">
           <SectionLabel index="01">Biografia</SectionLabel>
           <h1 className="mt-6 font-display title-fluid text-balance">
-            A arte de habitar uma canção.
+            Onde Tudo se Conecta
           </h1>
         </header>
 
@@ -48,39 +48,45 @@ function SobrePage() {
 
           <div className="col-span-6 col-start-7 space-y-4 text-sm leading-relaxed text-brand-light/75 md:space-y-6 md:text-lg">
             <p>
-              Nascida no interior de Minas Gerais e formada em canto erudito
-              pela Universidade de São Paulo, <strong>Danella</strong>
-              começou a carreira em pequenas casas de jazz antes de se firmar
-              como uma das vozes mais singulares de sua geração.
+              Nascida em Goiás e atualmente sediada em São Paulo,{" "}
+              <strong>Danella</strong> construiu sua trajetória unindo
+              sensibilidade artística, visão estratégica e forte presença de
+              palco.
             </p>
             <p>
-              Sua música transita entre o samba-canção, o jazz contemporâneo e
-              a canção autoral, sempre com uma assinatura cinematográfica —
-              arranjos generosos, silêncios calculados, presença total.
+              À frente do projeto <em>Danella Connect in</em>, desenvolve um
+              trabalho autoral focado em criar experiências marcantes através
+              da música.
             </p>
             <p>
-              Já dividiu palcos com Hamilton de Holanda, Tigran Hamasyan e a
-              Orquestra Sinfônica do Estado de São Paulo. Em 2024, lança
-              <em> Ecos de Silêncio</em>, seu terceiro álbum de estúdio,
-              gravado entre São Paulo e Lisboa.
+              Cantora, compositora e idealizadora do projeto Danella Connectin,
+              a artista reúne sensibilidade artística, visão estratégica e
+              presença de palco em uma carreira construída com consistência,
+              dedicação e propósito.
+            </p>
+            <p>
+              Sua identidade musical nasce das raízes brasileiras e ganha força
+              através de performances que unem emoção, energia e proximidade
+              com o público, consolidando Danella como um dos nomes em ascensão
+              no cenário nacional.
             </p>
 
             <dl className="mt-12 grid grid-cols-2 gap-y-8 border-t border-border pt-12">
               <div>
                 <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Origem</dt>
-                <dd className="mt-2 font-display text-2xl">Minas Gerais, BR</dd>
+                <dd className="mt-2 font-display text-2xl">Goiás, BR</dd>
               </div>
               <div>
-                <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Selo</dt>
-                <dd className="mt-2 font-display text-2xl">Vale Records</dd>
+                <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Base</dt>
+                <dd className="mt-2 font-display text-2xl">São Paulo, BR</dd>
               </div>
               <div>
-                <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Álbuns</dt>
-                <dd className="mt-2 font-display text-2xl">3</dd>
+                <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Projeto</dt>
+                <dd className="mt-2 font-display text-2xl">Danella Connect in</dd>
               </div>
               <div>
-                <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Idiomas</dt>
-                <dd className="mt-2 font-display text-2xl">PT · EN · FR</dd>
+                <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Atuação</dt>
+                <dd className="mt-2 font-display text-2xl">Cantora · Compositora</dd>
               </div>
             </dl>
           </div>

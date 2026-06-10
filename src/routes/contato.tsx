@@ -36,24 +36,24 @@ function ContatoPage() {
             <div>
               <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Booking</dt>
               <dd className="mt-2 font-display text-2xl">
-                <a href="mailto:booking@danella.com" className="hover:text-brand-accent">
-                  booking@danella.com
+                <a href="mailto:Danielaribeirocontato@hotmail.com" className="hover:text-brand-accent break-all">
+                  Danielaribeirocontato@hotmail.com
                 </a>
               </dd>
             </div>
             <div>
-              <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Imprensa</dt>
+              <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Telefone</dt>
               <dd className="mt-2 font-display text-2xl">
-                <a href="mailto:press@danella.com" className="hover:text-brand-accent">
-                  press@danella.com
+                <a href="tel:+5511988377539" className="hover:text-brand-accent">
+                  (11) 98837-7539
                 </a>
               </dd>
             </div>
             <div>
               <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Instagram</dt>
               <dd className="mt-2 font-display text-2xl">
-                <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-brand-accent">
-                  @danella
+                <a href="https://www.instagram.com/danellaoficial/" target="_blank" rel="noreferrer" className="hover:text-brand-accent">
+                  @danellaoficial
                 </a>
               </dd>
             </div>
