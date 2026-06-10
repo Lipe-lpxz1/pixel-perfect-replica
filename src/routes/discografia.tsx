@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SectionLabel } from "@/components/SectionLabel";
 import album1 from "@/assets/album-1.jpg";
+import album2 from "@/assets/album-2.jpg";
+import album3 from "@/assets/album-3.jpg";
 
 export const Route = createFileRoute("/discografia")({
   head: () => ({
@@ -19,11 +21,24 @@ export const Route = createFileRoute("/discografia")({
 const records = [
   {
     cover: album1,
-    title: "Danella Connect in",
+    title: "Ecos de Silêncio",
     year: "2024",
-    type: "Projeto autoral",
-    spotifyType: "artist" as const,
-    spotifyId: "6rFydUcUXtAiW2DBXtgZa8",
+    type: "LP · 11 faixas",
+    spotify: "1DFixLWuPkv3KT3TnV35m3",
+  },
+  {
+    cover: album2,
+    title: "Hora de Veludo",
+    year: "2022",
+    type: "EP · 5 faixas",
+    spotify: "1DFixLWuPkv3KT3TnV35m3",
+  },
+  {
+    cover: album3,
+    title: "Lumina",
+    year: "2020",
+    type: "Single",
+    spotify: "1DFixLWuPkv3KT3TnV35m3",
   },
 ];
 
@@ -70,7 +85,7 @@ function DiscografiaPage() {
                 <div className="mt-8 overflow-hidden rounded-sm">
                   <iframe
                     title={`Spotify ${r.title}`}
-                    src={`https://open.spotify.com/embed/${r.spotifyType}/${r.spotifyId}?utm_source=generator&theme=0`}
+                    src={`https://open.spotify.com/embed/album/${r.spotify}?utm_source=generator&theme=0`}
                     className="block w-full"
                     height={352}
                     frameBorder={0}

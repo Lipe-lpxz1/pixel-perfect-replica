@@ -14,10 +14,10 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Site oficial de Danella. Conheça o projeto Danella Connect in, ouça as músicas e contrate apresentações.",
+          "Site oficial de Danella. Ouça o novo álbum, veja a agenda de shows e contrate apresentações.",
       },
       { property: "og:title", content: "Danella — Site Oficial" },
-      { property: "og:description", content: "Cantora, compositora e idealizadora do projeto Danella Connect in." },
+      { property: "og:description", content: "Música cinematográfica, ao vivo e em estúdio." },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -43,15 +43,14 @@ function HomePage() {
         <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-end px-6 pb-24 md:px-10 md:pb-32">
           <div className="max-w-3xl animate-fade-up">
             <p className="mb-6 text-[10px] uppercase tracking-hero text-brand-accent">
-              Projeto autoral • Goiás → São Paulo
+              Novo álbum • Disponível agora
             </p>
             <h1 className="font-display headline-fluid max-w-[11ch] text-balance text-brand-light">
-              Danella <span className="italic">Connect in</span>
+              Ecos de <span className="italic">Silêncio</span>
             </h1>
             <p className="mt-8 max-w-xl text-base leading-relaxed text-brand-light/70 md:text-lg">
-              Um trabalho autoral que une raízes brasileiras, sensibilidade
-              artística e forte presença de palco — música como experiência
-              que conecta artista e público.
+              Onze canções sobre travessias, memória e a luz que insiste em
+              voltar. Uma obra cinematográfica, escrita à voz e ao piano.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link
@@ -86,13 +85,13 @@ function HomePage() {
           </div>
           <div className="md:col-span-9">
             <h2 className="font-display title-fluid text-balance">
-              Uma voz que nasce das raízes brasileiras e devolve <em className="text-brand-accent">presença</em>.
+              Uma voz que atravessa o silêncio e devolve <em className="text-brand-accent">presença</em>.
             </h2>
             <p className="mt-8 max-w-xl text-base leading-relaxed text-brand-light/70 md:text-lg">
-              Nascida em Goiás e sediada em São Paulo, Danella constrói uma
-              trajetória que une sensibilidade artística, visão estratégica
-              e forte presença de palco. À frente do Danella Connect in,
-              desenvolve um trabalho autoral focado em experiências marcantes.
+              Danella constrói uma linguagem própria entre a canção
+              brasileira contemporânea, o jazz íntimo e arranjos
+              orquestrais. Suas performances são ritualísticas — pensadas como
+              cinema: luz, gesto, respiração.
             </p>
             <Link
               to="/sobre"
@@ -114,18 +113,18 @@ function HomePage() {
           <div>
             <SectionLabel index="03">Último lançamento</SectionLabel>
             <h2 className="mt-6 font-display title-fluid">
-              Danella Connect in
+              Ecos de Silêncio
             </h2>
             <p className="mt-6 max-w-md leading-relaxed text-brand-light/65">
-              Um projeto autoral que reúne emoção, energia e proximidade com
-              o público — performances que traduzem a identidade musical de
-              Danella e suas raízes brasileiras.
+              Gravado entre São Paulo e Lisboa, o álbum reúne onze canções
+              originais e duas releituras. Uma exploração íntima da fragilidade
+              como força.
             </p>
 
             <div className="mt-10 overflow-hidden rounded-sm shadow-2xl">
               <iframe
                 title="Player Spotify - Danella"
-                src="https://open.spotify.com/embed/artist/6rFydUcUXtAiW2DBXtgZa8?utm_source=generator&theme=0"
+                src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3?utm_source=generator&theme=0"
                 className="block w-full"
                 height={352}
                 frameBorder={0}
@@ -138,7 +137,7 @@ function HomePage() {
           <div className="relative aspect-[4/5] w-full overflow-hidden shadow-2xl">
             <img
               src={album1}
-              alt="Danella — projeto Connect in"
+              alt="Capa do álbum Ecos de Silêncio"
               loading="lazy"
               width={1024}
               height={1280}
@@ -163,7 +162,7 @@ function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/30 to-transparent" />
         <div className="absolute inset-x-0 bottom-12 mx-auto max-w-7xl px-6 md:px-10">
           <p className="font-display text-3xl italic text-brand-light/90 md:text-5xl max-w-3xl text-balance">
-            “Música como ponte — onde tudo se conecta.”
+            “Cantar é traduzir o tempo em luz.”
           </p>
         </div>
       </section>
