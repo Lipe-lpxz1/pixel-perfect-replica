@@ -85,7 +85,7 @@ function DiscografiaPage() {
                 <div className="mt-8 overflow-hidden rounded-sm">
                   <iframe
                     title={`Spotify ${r.title}`}
-                    src={`https://open.spotify.com/embed/album/${r.spotify}?utm_source=generator&theme=0`}
+                    src="https://open.spotify.com/embed/playlist/16P1nQXM2VTPz4ugAQ1LaW?utm_source=generator&theme=0"
                     className="block w-full"
                     height={352}
                     frameBorder={0}
