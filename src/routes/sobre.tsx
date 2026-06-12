@@ -31,8 +31,8 @@ function SobrePage() {
           </h1>
         </header>
 
-        <div className="lg:grid lg:grid-cols-12 lg:gap-16">
-          <figure className="mb-8 md:float-left md:mr-8 md:mb-4 md:w-2/5 lg:float-none lg:m-0 lg:w-auto lg:col-span-5">
+        <div className="sobre-layout lg:grid lg:grid-cols-12 lg:gap-16">
+          <figure className="sobre-figure mb-8 lg:col-span-5">
             <img
               src={aboutImg}
               alt="Retrato editorial de Danella"
@@ -43,7 +43,7 @@ function SobrePage() {
             />
           </figure>
 
-          <div className="space-y-4 text-sm leading-relaxed text-brand-light/75 md:space-y-6 md:text-lg lg:col-span-6 lg:col-start-7">
+          <div className="sobre-bio space-y-4 text-sm leading-relaxed text-brand-light/75 md:space-y-6 md:text-lg lg:col-span-6 lg:col-start-7">
             <p>
               Nascida em Goiás e atualmente sediada em São Paulo,{" "}
               <strong>Danella</strong> construiu sua trajetória unindo
