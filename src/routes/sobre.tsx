@@ -31,19 +31,8 @@ function SobrePage() {
           </h1>
         </header>
 
-        <div className="md:grid md:grid-cols-12 md:gap-16 lg:gap-16">
-          <figure className="mb-8 md:mb-0 md:float-left md:mr-10 md:w-[42%] lg:hidden">
-            <img
-              src={aboutImg}
-              alt="Retrato editorial de Danella"
-              loading="lazy"
-              width={1200}
-              height={1500}
-              className="w-full object-cover"
-            />
-          </figure>
-
-          <figure className="hidden lg:block lg:col-span-5">
+        <div className="lg:grid lg:grid-cols-12 lg:gap-16">
+          <figure className="mb-8 md:float-left md:mr-8 md:mb-4 md:w-[45%] lg:float-none lg:m-0 lg:col-span-5 lg:w-auto">
             <img
               src={aboutImg}
               alt="Retrato editorial de Danella"
