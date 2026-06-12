@@ -191,6 +191,9 @@
     object-fit: cover;
     object-position: top center;
   }
+  .hero-tinted {
+    filter: saturate(0.88) contrast(1.05) sepia(0.18) hue-rotate(-8deg);
+  }
   .reveal-block {
     animation: reveal-block both;
     animation-timeline: view();

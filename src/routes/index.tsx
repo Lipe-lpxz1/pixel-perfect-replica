@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { AGENDA_VISIBLE } from "@/lib/feature-flags";
-import heroImg from "@/assets/hero.jpg";
+import heroAsset from "@/assets/hero-danella.png.asset.json";
 import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import album1 from "@/assets/album-1.jpg";
@@ -31,14 +31,15 @@ function HomePage() {
       {/* HERO */}
       <section className="relative h-screen min-h-[680px] w-full overflow-hidden">
         <img
-          src={heroImg}
+          src={heroAsset.url}
           alt="Danella em performance"
           width={1080}
           height={1920}
-          className="hero-fixed-image"
+          className="hero-fixed-image hero-tinted"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-dark/40 via-brand-dark/30 to-brand-dark" />
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/60 via-transparent to-brand-dark/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-dark/50 via-brand-dark/35 to-brand-dark" />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/70 via-transparent to-brand-dark/40" />
+        <div className="absolute inset-0 mix-blend-soft-light bg-[radial-gradient(ellipse_at_center,oklch(0.78_0.085_35/0.35),transparent_70%)]" />
 
         <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-end px-6 pb-24 md:px-10 md:pb-32">
           <div className="max-w-3xl animate-fade-up">
