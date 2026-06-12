@@ -32,7 +32,7 @@ function SobrePage() {
         </header>
 
         <div className="lg:grid lg:grid-cols-12 lg:gap-16">
-          <figure className="mb-8 md:float-left md:mr-8 md:mb-4 md:w-[45%] lg:float-none lg:m-0 lg:col-span-5 lg:w-auto">
+          <figure className="mb-8 md:float-left md:mr-8 md:mb-4 md:w-2/5 lg:float-none lg:m-0 lg:w-auto lg:col-span-5">
             <img
               src={aboutImg}
               alt="Retrato editorial de Danella"
