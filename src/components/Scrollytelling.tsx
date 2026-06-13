@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
+import origemAsset from "@/assets/origem.jpg.asset.json";
+import travessiaAsset from "@/assets/travessia.jpg.asset.json";
+import presencaAsset from "@/assets/presenca.png.asset.json";
 import { SectionLabel } from "@/components/SectionLabel";
 
 const chapters = [
@@ -9,19 +9,19 @@ const chapters = [
     no: "I",
     title: "Origem",
     text: "Recife, varanda, rádio antigo. A primeira melodia foi um sussurro herdado da avó.",
-    img: gallery1,
+    img: origemAsset.url,
   },
   {
     no: "II",
     title: "Travessia",
     text: "Entre São Paulo e Lisboa, a voz encontrou seu próprio idioma — leve, denso, exato.",
-    img: gallery2,
+    img: travessiaAsset.url,
   },
   {
     no: "III",
     title: "Presença",
     text: "Hoje cada show é um ritual. Luz baixa, respiração, o tempo se dobrando.",
-    img: gallery3,
+    img: presencaAsset.url,
   },
 ];
 
