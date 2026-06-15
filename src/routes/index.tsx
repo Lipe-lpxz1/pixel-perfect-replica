@@ -152,7 +152,7 @@ function HomePage() {
       {/* WIDE IMAGE */}
       <section className="reveal-block relative h-[60vh] min-h-[420px] w-full overflow-hidden">
         <img
-          src={palcoAsset}
+          src={palcoAsset.url}
           alt="Performance ao piano"
           loading="lazy"
           width={1024}
