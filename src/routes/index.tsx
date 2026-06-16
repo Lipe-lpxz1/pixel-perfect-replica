@@ -113,8 +113,7 @@ function HomePage() {
               Danella Connect in
             </h2>
             <p className="mt-6 max-w-md leading-relaxed text-brand-light/65">
-              Cantora, empresária e compositora. A Rainha do Piseiro — um
-              legado que atravessa gerações.
+              Uma celebração dos encontros que só a música é capaz de criar.
             </p>
 
             <div className="mt-10 overflow-hidden rounded-sm shadow-2xl">
