@@ -50,8 +50,7 @@ function HomePage() {
               Danella <span className="italic">Connect in</span>
             </h1>
             <p className="mt-8 max-w-xl text-base leading-relaxed text-brand-light/70 md:text-lg">
-              Cantora, empresária e compositora. A Rainha do Piseiro — um
-              legado que atravessa gerações.
+              Uma celebração dos encontros que só a música é capaz de criar.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link
@@ -86,13 +85,10 @@ function HomePage() {
           </div>
           <div className="md:col-span-9">
             <h2 className="font-display title-fluid text-balance">
-              Uma voz que atravessa o silêncio e devolve <em className="text-brand-accent">presença</em>.
+              Uma voz que emociona e uma história construída com talento, carisma e <em className="text-brand-accent">paixão pela música</em>.
             </h2>
             <p className="mt-8 max-w-xl text-base leading-relaxed text-brand-light/70 md:text-lg">
-              Danella constrói uma linguagem própria entre a canção
-              brasileira contemporânea, o jazz íntimo e arranjos
-              orquestrais. Suas performances são ritualísticas — pensadas como
-              cinema: luz, gesto, respiração.
+              Com uma carreira construída ao longo de mais de duas décadas, Danella leva sua voz aos grandes palcos com autenticidade, emoção e uma conexão única com o público. Entre sucessos da atualidade e canções que marcaram gerações, construiu uma trajetória marcada por carisma, presença e paixão pela música.
             </p>
             <Link
               to="/sobre"

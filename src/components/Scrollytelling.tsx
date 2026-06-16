@@ -8,19 +8,19 @@ const chapters = [
   {
     no: "I",
     title: "Origem",
-    text: "Recife, varanda, rádio antigo. A primeira melodia foi um sussurro herdado da avó.",
+    text: "Nascida em Goianésia, Goiás, Danella realizou seu primeiro show aos 20 anos, em Jaraguá, no ano de 2004. Diante de um público que chegou a ultrapassar 2.000 pessoas e com repercussão na imprensa local, aquele momento marcou o início de uma jornada que transformaria um sonho de infância em uma carreira de sucesso.",
     img: origemAsset.url,
   },
   {
     no: "II",
     title: "Travessia",
-    text: "Entre São Paulo e Lisboa, a voz encontrou seu próprio idioma — leve, denso, exato.",
+    text: "Ao longo de sua trajetória, Danella enfrentou desafios comuns a muitos artistas, incluindo a pressão para seguir caminhos que não representavam sua identidade. Em determinado momento, decidiu reestruturar sua carreira, assumindo a gestão do próprio trabalho e fortalecendo sua atuação como empresária. Essa fase marcou uma nova etapa de crescimento, consolidando sua presença no universo do piseiro e da vaquejada.",
     img: travessiaAsset.url,
   },
   {
     no: "III",
     title: "Presença",
-    text: "Hoje cada show é um ritual. Luz baixa, respiração, o tempo se dobrando.",
+    text: "Nos dias de hoje, Danella é uma artista nacional consolidada, de nome e entrega, que leva aos palcos profissionalismo, segurança e a maturidade de quem transforma experiência em presença. Tal como um bom vinho, sua arte amadureceu com o tempo.",
     img: presencaAsset.url,
   },
 ];
