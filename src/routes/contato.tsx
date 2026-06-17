@@ -44,7 +44,7 @@ function ContatoPage() {
             <div>
               <dt className="text-[10px] uppercase tracking-luxury text-brand-accent">Telefone</dt>
               <dd className="mt-2 font-display text-2xl">
-                <a href="tel:+5511988377539" className="hover:text-brand-accent">
+                <a href="https://wa.me/5511988377539" target="_blank" rel="noreferrer" className="hover:text-brand-accent">
                   (11) 98837-7539
                 </a>
               </dd>
