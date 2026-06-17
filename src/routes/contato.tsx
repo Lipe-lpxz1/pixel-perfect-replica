@@ -102,6 +102,15 @@ function ContatoPage() {
           >
             {sent ? "Mensagem enviada — obrigada" : "Enviar solicitação"}
           </button>
+
+          <a
+            href="https://wa.me/5511988377539"
+            target="_blank"
+            rel="noreferrer"
+            className="flex min-h-12 w-full items-center justify-center border border-brand-light/30 px-6 py-5 text-center text-[10px] font-semibold uppercase tracking-luxury text-brand-light transition-colors hover:border-brand-accent hover:text-brand-accent sm:px-8"
+          >
+            WhatsApp
+          </a>
         </form>
       </div>
     </section>
