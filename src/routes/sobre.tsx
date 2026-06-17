@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import aboutImg from "@/assets/about.jpg";
+import sobreImg from "@/assets/sobre-danella.jpg.asset.json";
 import { SectionLabel } from "@/components/SectionLabel";
 
 export const Route = createFileRoute("/sobre")({
