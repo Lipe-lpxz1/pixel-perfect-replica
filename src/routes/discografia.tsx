@@ -25,6 +25,8 @@ const records = [
     year: "2026",
     type: "Single",
     spotify: "1DFixLWuPkv3KT3TnV35m3",
+    description:
+      "Inspirada no clássico 'Creep' mas com o ritmo contagiante do forró e do baião, a música 'Estamos Longe' é uma celebração da conexão energética e da liberdade de ser quem se é. Ela narra a história de um amor onde não é preciso 'pisar em ovos', onde a distância apenas intensifica a saudade gostosa e a certeza de um sentimento conectado e verdadeiro. Uma música para cantar, dançar e celebrar a beleza de um amor correspondido.",
   },
   {
     cover: album2,
@@ -32,6 +34,8 @@ const records = [
     year: "2026",
     type: "Single",
     spotify: "1DFixLWuPkv3KT3TnV35m3",
+    description:
+      "A música 'Te Amo na Minha Cabeça' é um mergulho profundo na doçura e na melancolia de um amor vivido em segredo. Ela conta a história de quem, por entrelaçar sentimentos platônicos e o desejo de estar perto, escolhe cuidar e servir em silêncio. É uma narrativa sobre a plenitude encontrada na imaginação e sobre a esperança secreta de que, talvez, esse sentimento seja recíproco. Uma música para se deixar levar pelas emoções e sonhar com o que existe apenas no imaginário.",
   },
   {
     cover: album3,
@@ -39,6 +43,8 @@ const records = [
     year: "2025",
     type: "Single",
     spotify: "1DFixLWuPkv3KT3TnV35m3",
+    description:
+      "Fruto de uma parceria emocionante com o icônico rapper Pepeu, a música 'Nosso Amor' é uma ode a um amor de outras eras. Com uma fusão envolvente, a canção celebra a conexão telepática, o desejo intenso e a certeza de que algumas almas foram feitas para se encontrar. Uma música para sentir, dançar e celebrar a plenitude de um amor indescritível.",
   },
 ];
 
@@ -49,7 +55,7 @@ function DiscografiaPage() {
         <header className="mb-20 max-w-3xl animate-fade-up">
           <SectionLabel index="04">Discografia</SectionLabel>
           <h1 className="mt-6 font-display title-fluid text-balance">
-            Toda a <em>obra</em>.
+            Músicas <em>autorais</em>.
           </h1>
         </header>
 
@@ -79,8 +85,7 @@ function DiscografiaPage() {
                   {r.title}
                 </h2>
                 <p className="mt-6 max-w-md leading-relaxed text-brand-light/65">
-                  Uma obra que reúne a delicadeza da canção brasileira com a
-                  amplitude cinematográfica de arranjos orquestrais.
+                  {r.description}
                 </p>
                 <div className="mt-8 overflow-hidden rounded-sm">
                   <iframe
